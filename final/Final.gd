@@ -48,7 +48,7 @@ func _input(event):
 			$Click.visible = false
 		elif s == "Space":
 			inputstr = inputstr + " "
-		elif !["Left", "Up", "Right", "Down", "Enter"].has(s):
+		elif !["Left", "Up", "Right", "Down", "Enter", "CapsLock", "Shift", "Control"].has(s):
 			inputstr = inputstr + s
 			$Button.visible = true
 			$Click.visible = true

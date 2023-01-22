@@ -366,7 +366,7 @@ margin_bottom = 3.44437
 rect_scale = Vector2( 2, 2 )
 custom_colors/font_color = Color( 0.266667, 0.709804, 0.27451, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
-text = "Authors: Jimena Rosato, Gabriel Pasquale, Camila Cintioli                    Thanks: Julieta, Eric, Nahuel, Ariel, Matias                    Music/Special Thanks: Rodrigo Salgado, Leandro Lencina"
+text = "Author: Gabriel                      Thanks: Camila, Jimena, Rodrigo, Leandro, Julieta, Eric, Nahuel, Ariel, Matias"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -610,7 +610,6 @@ __meta__ = {
 }
 
 [node name="HTTPRequest" type="HTTPRequest" parent="."]
-
 [connection signal="body_entered" from="Zero" to="." method="_on_Zero_body_entered"]
 [connection signal="body_exited" from="Zero" to="." method="_on_Zero_body_exited"]
 [connection signal="body_entered" from="One" to="." method="_on_One_body_entered"]
